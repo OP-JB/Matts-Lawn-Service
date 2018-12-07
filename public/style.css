@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  background: rgb(236, 236, 236);
+}
+
+#navbar {
+  background: #40763C;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top-header {
+/*  display: flex;*/
+  justify-content: space-between;
+}
+
+.top-header > div {
+  margin: 10px 5px;
+}
+
+#logo-text {
+  font-family: Lobster;
+  font-size: 2em;
+  margin: 10px;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px .1em black;
+}
+
+#logo-text:hover {
+  text-shadow: 0px 0px .2em white;
+}
+
+#logo{
+  text-decoration: none;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  align-items: center;
+  color: white;
+}
+
+.flex{
+  display:flex;
+}
