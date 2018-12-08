@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './navbar'
 
-const Main = () => {
+var Main = function() {
   return (
     <div id='main'>
       <NavBar />
