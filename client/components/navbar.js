@@ -12,10 +12,10 @@ var NavBar = function() {
                 <Link id="home" className="navbar-links" to="/">
                   <h3 id="home-text">Home</h3>
                 </Link>
-                <Link id="services" className="navbar-links" to="/">
+                <Link id="services" className="navbar-links" to="/services">
                   <h3 id="services-text">Services</h3>
                 </Link>
-                <Link id="contact" className="navbar-links" to="/">
+                <Link id="contact" className="navbar-links" to="/contact">
                   <h3 id="contact-text">Contact</h3>
                 </Link>
             </div>
