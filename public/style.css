@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-size: 16px;
-  font-family: 'Calisto MT';
+  font-family: 'Modern Sans';
   font-weight: lighter;
   letter-spacing: 2px;
   word-spacing: 2px;
@@ -10,8 +10,8 @@ body {
 
 #navbar {
   background: #40763C;
-  max-height: 250px;
-  min-height: 200px;
+  max-height: 200px;
+  min-height: 180px;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -57,6 +57,7 @@ body {
 }
 
 .navbar-links{
+  position: static;
   margin: 0em 3em 0em 3em;
   text-decoration: none;
   color: white;
@@ -73,7 +74,7 @@ body {
 
 #logo-text {
   font-size: 2.4em;
-  font-family: 'Cooper Black';
+  font-family: 'Cartoonist';
   margin: 10px;
   width: 80%;
   margin: 0 auto;
@@ -106,9 +107,9 @@ body {
 #slogan {
   position: absolute;
   width: 100vw;
-  height: 20vh;
+  height: 17vh;
   max-height: 130px;
-  min-height: 80px;
+  min-height: 100px;
   background: #8DB87E;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -120,7 +121,9 @@ body {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 1.7em;
+  font-size: 1.9em;
   text-align: center;
+  width: 30em;
+  text-shadow: 0px 0px .1em #40763C;
 }
 
