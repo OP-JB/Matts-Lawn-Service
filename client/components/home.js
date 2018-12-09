@@ -1,10 +1,10 @@
 import React from 'react'
-import Slogan from './slogan'
+import HomeImage from './home-image'
 
 var Home = function() {
   return (
     <div id='home'>
-      <Slogan />
+      <HomeImage />
     </div>
   )
 }
