@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Main from './main'
 import history from './history'
-import {Router} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
-  <Router history={history}>
+  <Router>
     <Main />
   </Router>,
   document.getElementById('app')
