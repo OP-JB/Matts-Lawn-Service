@@ -7,7 +7,7 @@ var About = function() {
       <div id='about-container'>
         <h2 id='about-title'>About Matt</h2>
         <div id='about-content'>
-          <img id='about-image' src='./assets/matt-photo.png'></img>
+          <img id='about-image' src='./assets/matthat600.png'></img>
           <p id='about-text'>{text}</p>
         </div>
       </div>
