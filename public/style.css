@@ -34,7 +34,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 2.4em;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ body {
 
 #navbar-email{
   text-shadow: 0px 0px .5em #1A3018;
-  font-size: .9em;
+  font-size: 1em;
   margin: 1em 2em .5em 0em;
   padding-right: 1em;
 }
@@ -62,8 +62,9 @@ body {
 }
 
 .navbar-links{
+  font-size: 1.2em;
   text-shadow: 0px 0px .5em #1A3018;
-  margin: 0em 2em 0em 3em;
+  margin: 0em 1em 0em 1.5em;
   text-decoration: none;
   color: white;
 }
@@ -112,7 +113,7 @@ body {
 
 #slogan {
   align-self: center;
-  margin-top: 5em;
+  margin-top: 5.5em;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -280,23 +281,25 @@ body {
 
 /* services */
 
+#services {
+  margin-bottom: 2.4em;
+}
+
 #services-header {
   align-self: center;
-  margin-top: 5em;
   margin: auto 0;
   color: white;
-  font-size: 2.2em;
+  font-size: 2.4em;
   text-align: center;
   width: 100%;
-  padding: 1em 0 .7em 0;
-  font-weight: lighter;
-  text-shadow: 0px 0px 10em black;
+  padding: 1.7em 0 1em 1.3em;
+  text-shadow: 0px 0px 1em black;
 }
 
 .service {
-  height: 30vh;
+  height: 20vh;
   width: 100vw;
-  min-height: 416px;
+  min-height: 250px;
   max-height: 680px;
   position: relative;
   border: 1px solid #D9CEA7 80%;
@@ -306,22 +309,22 @@ body {
 }
 
 .service-title {
-  margin: .4em;
-  margin-bottom: 0;
+  margin: .8em;
+  margin-bottom: .6em;
   color: white;
-  font-size: 1.6em;
-  text-align: center;
+  font-size: 1.8em;
+  text-align: left;;
   align-self: center;
   justify-content: center;
   text-shadow: 0px 1px 3px black;
+
 }
 
 .service-container {
-  padding: 1em;
   position: absolute;
   min-width: 800px;
-  min-height: 260px;
-  height: 40%;
+  min-height: 220px;
+  height: 35%;
   width: 70%;
   left: 50%;
   top: 50%;
@@ -330,31 +333,34 @@ body {
   background: linear-gradient(122.72deg, rgba(217, 206, 167, 0.83) 20.7%, rgba(150, 141, 103, 0.86) 65.07%);
   border: .2em solid #40763C;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .service-text {
   color: white;
-  font-size: 1.2em;
-  margin: 0 1em 2em 0em;
+  font-size: 1.5em;
+  margin: 0 2em 2em 3.5em;
   align-self: center;
   justify-content: center;
   font-weight: lighter;
   line-height: 1.2em;
   text-shadow: 0px 1px 3px black;
   backdrop-filter: blur(20px);
-  max-height: 50%
+  max-height: 50%;
 }
 
 .service-content {
   display: inline-flex;
-  justify-content: center;
+  align-self: center;
+  justify-content: space-between;
 }
 
 .service-image {
-  width: 190px;
-  height: 190px;
+  width: 165px;
+  height: 165px;
   max-width: 100%;
   max-height: 100%;
-  margin: 0 1.5em 3em 0;
+  margin: 1.5em 1em 1em 3em;
 }
