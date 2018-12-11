@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 var Footer = function() {
   return (
-    <div id='footer' className="top-header">
+    <div id='footer'>
       <div id='footer-content'>
         <div id='footer-contact'>
           <h3 id='footer-phone' className='footer-contact-text'>386-290-7950</h3>

@@ -9,7 +9,7 @@ var services = {
   weeding: {photo: './assets/weeding.jpeg', description: ['Flowerbeds, gardens, lawns, shrubbery', 'Environmentally safe approach -- no chemicals']},
   shrubberyTrimming: {photo: './assets/shrubbery-trimming.jpeg', description: ['Shrubs, bushes, and hedges', 'Customizable design']},
   gutterCleaning: {photo: './assets/gutter-cleaning.jpg', description: ['Removal of leaves, dirt, and other debris', 'No spot too high to reach!']},
-  pressureWashing: {photo: './assets/pressure-washing.jpeg', description: ['Grease, discoloration, dirt, grime, mildew, pollution, graffiti', 'Professional equipment and cleaning solutions']}
+  pressureWashing: {photo: './assets/pressure-washing.jpeg', description: ['Grease, discoloration, dirt, grime, mildew, pollution, graffiti']}
 }
 
 var Services = function() {

@@ -18,7 +18,7 @@ var ContactForm = function() {
                 <br/>
                 <textarea name='message' id='contact-message' className='contact-input' type='text' ></textarea>
                 <br/>
-                <button type='submit' id='contact-submit'>Submit</button>
+                <button type='submit' id='contact-submit'>Send Email</button>
             </form>
             <div id='contact-location'>
                 <div id='contact-address'>
