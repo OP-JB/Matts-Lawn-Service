@@ -366,12 +366,22 @@ body {
 }
 
 /*contact*/
+#contact-header {
+  align-self: center;
+  margin: auto 0;
+  color: white;
+  font-size: 2.4em;
+  text-align: center;
+  width: 100%;
+  padding: 1.7em 0 1em 1.3em;
+  text-shadow: 0px 0px 1em black;
+}
 
 #contact {
-  height: 62vh;
+  height: 120vh;
   width: 100vw;
   min-height: 416px;
-  max-height: 680px;
+  max-height: 1680px;
   position: relative;
   border: 1px solid #D9CEA7 80%;
   border-left: 0;
@@ -384,6 +394,7 @@ body {
   position: absolute;
   min-width: 800px;
   min-height: 380px;
+  max-height: 420px;
   height: 55%;
   width: 70%;
   left: 50%;
@@ -393,4 +404,26 @@ body {
   background: linear-gradient(122.72deg, rgba(217, 206, 167, 0.83) 20.7%, rgba(150, 141, 103, 0.86) 65.07%);
   border: .2em solid #40763C;
   box-sizing: border-box;
+  display: inline-flex;
+  justify-content: space-between;
 }
+
+#contact-location{
+  border: 1px solid black;
+  height: 21.3em;
+  width: 60%;
+}
+
+/*#contact-form{
+  flex-direction: row;
+
+}*/
+
+.contact-input{
+  width: 110%;
+  margin-bottom: .9em;
+}
+
+
+
+
