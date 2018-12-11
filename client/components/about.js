@@ -1,14 +1,17 @@
 import React from 'react'
 
 var About = function() {
-  var text = 'This is some text about my buddy Matt Canales. He is a cool guy and he will do your landscaping better than anyone else you could hire. They would suck real bad compared to Matt I assure you. So hire Matt now to do your landscaping -- offering full-service landscaping and being a cool guy all around all the time including now. This is some text about my buddy Matt Canales. He is a cool guy.'
+  var text = `With over fifteen years of experience, we provide commercial and residential landscaping services throughout Volusia and Flagler County. Matt’s Lawn Service is fully licensed and insured --
+we strive to treat your property and it’s maintenance with the utmost care, and pride ourselves in our work and professionalism.`
   return (
     <div id='about'>
       <div id='about-container'>
-        <h2 id='about-title'>About Matt</h2>
+        <h2 id='about-title'>About Matt's Lawn Service</h2>
         <div id='about-content'>
           <img id='about-image' src='./assets/matthat600.png'></img>
-          <p id='about-text'>{text}</p>
+          <div id='about-text'>{text}
+            <h4 id='about-signature'>-Matt Canales, Owner</h4>
+          </div>
         </div>
       </div>
     </div>
