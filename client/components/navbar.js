@@ -9,13 +9,13 @@ var NavBar = function() {
         </Link>
         <div id='navbar-content'>
             <div id='navbar-links-container'>
-                <Link id="home" className="navbar-links" to="/">
+                <Link id="home-link" className="navbar-links" to="/">
                   <h3 id="home-text">Home</h3>
                 </Link>
-                <Link id="services" className="navbar-links" to="/services">
+                <Link id="services-link" className="navbar-links" to="/services">
                   <h3 id="services-text">Services</h3>
                 </Link>
-                <Link id="contact" className="navbar-links" to="/contact">
+                <Link id="contact-link" className="navbar-links" to="/contact">
                   <h3 id="contact-text">Contact</h3>
                 </Link>
             </div>

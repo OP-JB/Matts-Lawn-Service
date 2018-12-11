@@ -1,5 +1,4 @@
 import React from 'react'
-
 var Contact = function() {
   return (
     <div id='contact'>
@@ -25,9 +24,7 @@ var Contact = function() {
                 <div id='contact-map'>
                 </div>
             </div>
-
         </div>
-
     </div>
   )
 }

@@ -281,7 +281,7 @@ body {
 
 /* services */
 
-#services {
+#services-link {
   margin-bottom: 2.4em;
 }
 
@@ -365,7 +365,6 @@ body {
   margin: 1.5em 1em 1em 3em;
 }
 
-
 /*contact*/
 
 #contact {
@@ -395,4 +394,3 @@ body {
   border: .2em solid #40763C;
   box-sizing: border-box;
 }
-
