@@ -22,10 +22,17 @@ var ContactForm = function() {
             </form>
             <div id='contact-location'>
                 <div id='contact-address'>
+                    <h5 className='contact-address-text'> Lumber Liquidators Plaza
+                    </h5>
+                    <h5 className='contact-address-text'> 1757 Nova Rd. Suite 101-B
+                    </h5>
+                    <h5 className='contact-address-text'>Holly Hill, FL 32117
+                    </h5>
                 </div>
-                <div id='contact-phone'>
+                <div id='contact-phone' className='contact-address-text'>386-290-7950
                 </div>
                 <div id='contact-map'>
+                <img id='service-map-image' src='./assets/servicemap.png'></img>
                 </div>
             </div>
         </div>

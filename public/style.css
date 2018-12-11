@@ -379,9 +379,9 @@ body {
 }
 
 #contact-container {
-  height: 65vh;
+  height: 120vh;
   width: 100vw;
-  min-height: 416px;
+  min-height: 600px;
   position: relative;
   border: 1px solid #D9CEA7 80%;
   border-left: 0;
@@ -395,9 +395,10 @@ body {
   position: absolute;
   min-width: 800px;
   min-height: 380px;
+  height: 550px;
   width: 70%;
   left: 50%;
-  top: 200px;
+  top: 280px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: linear-gradient(258.19deg, rgba(217, 206, 167, 0.83) 14.35%, rgba(150, 141, 103, 0.86) 65.07%);
@@ -408,28 +409,49 @@ body {
 }
 
 #contact-location{
-  border: 1px solid black;
   height: 21.3em;
-  width: 60%;
+  width: 51%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-/*#contact-form{
-  flex-direction: row;
-
-}*/
+#contact-form{
+  margin-top: .3em;
+  margin-left: 1.1em;
+}
 
 .contact-input{
   width: 110%;
   margin: .5em .2em .9em 0;
+  border: 3px solid #D9CEA7;
 }
 
 #contact-message {
-  height: 40%;
+  height: 42%;
 }
 
 .contact-label {
   color: white;
   text-shadow: 0px 0px 1em black;
+
 }
 
+#service-map-image{
+  width : 350px;
+  height: 350px;
+  border: 3px solid #D9CEA7;
+}
 
+.contact-address-text{
+  margin: .3em;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 1em black;
+  font-size: .9em;
+}
+
+#contact-phone{
+  font-size: 1.1em;
+  padding-bottom: .6em;
+}
