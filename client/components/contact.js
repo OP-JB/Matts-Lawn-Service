@@ -5,8 +5,7 @@ var Contact = function() {
         <h2 id='contact-header'>
             Contact Matt</h2>
         <div id='contact-content'>
-            <form method='post' encType='text/plain' action='mailto:lawnservicebymatt@gContact Matt
-mail.com' id='contact-form'>
+            <form method='post' encType='text/plain' action='mailto:lawnservicebymatt@gmail.com' id='contact-form'>
                 <label htmlFor='name' id='contact-name'></label>
                 <input name='name' type='text'/>
                 <label htmlFor='email' id='contact-email'> </label>
@@ -29,4 +28,5 @@ mail.com' id='contact-form'>
     </div>
   )
 }
+
 export default Contact

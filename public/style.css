@@ -365,7 +365,7 @@ body {
   margin: 1.5em 1em 1em 3em;
 }
 
-/* contact */
+/*contact*/
 
 #contact {
   height: 62vh;
@@ -378,6 +378,7 @@ body {
   border-right: 0;
   box-sizing: border-box;
 }
+
 #contact-content {
   padding: 1em;
   position: absolute;
