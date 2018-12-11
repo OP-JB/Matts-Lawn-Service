@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Modern Sans';
   src: url('./assets/modernsans-light.otf') format("woff2");
+}
+
+@font-face {
   font-family: 'Cartoonist';
   src: url('./assets/cartoonist_kooky.ttf');
 }
